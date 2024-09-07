@@ -7,9 +7,11 @@ export function PricingPage() {
       desc: "Lorem ipsum dolor sit amet, qui minimim sint cillum sint consectetur cupidatat.",
       price: 29,
       features: [
-        "720p Video Rendering",
-        "2GB Cloud Storage",
-        "Basic Video Templates",
+        "AI Powered Opportunity Search",
+        "Pipeline Management",
+        "Keyword Tracking",
+        "AI Insights",
+        "Government Contracts Database",
       ],
       isPopular: false,
     },
@@ -18,10 +20,11 @@ export function PricingPage() {
       desc: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim s",
       price: 59,
       features: [
-        "1080p Video Rendering",
-        "10GB Cloud Storage",
-        "Premium Video Templates",
-        "Collaboration Tools",
+        "AI Powered Opportunity Search",
+        "Pipeline Management",
+        "Keyword Tracking",
+        "AI Insights",
+        "Government Contracts Database",
       ],
       isPopular: true,
     },
@@ -29,8 +32,13 @@ export function PricingPage() {
       title: "White Glove Solution",
       desc: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum ",
       price: null,
-
-      features: ["Advanced Collaboration Tools", "Dedicated Support"],
+      features: [
+        "AI Powered Opportunity Search",
+        "Pipeline Management",
+        "Keyword Tracking",
+        "AI Insights",
+        "Government Contracts Database",
+      ],
       isPopular: false,
     },
   ];
@@ -122,10 +130,10 @@ function PricingTier({ title, desc, price, features, isPopular }) {
       </div>
       <div className="mt-6">
         <Button
-          className={`w-full ${
+          className={`w-full  ${
             !isPopular
               ? "bg-gradient-to-b from-violet-900 to-violet-950"
-              : "bg-background text-purple-800"
+              : "bg-background font-bold  text-purple-800"
           }`}
         >
           Get Started
