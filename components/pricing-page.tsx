@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-export function PricingPage() {
+export function PricingPage({}) {
   const pricingTiers = [
     {
       title: "Basic",
